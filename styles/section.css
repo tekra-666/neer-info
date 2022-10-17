@@ -1,13 +1,58 @@
-.sec-1{
+.sec-1 {
   border-style: solid;
+  border-width: .5pt;
   justify-content: center;
   padding-top: 10px;
   padding-bottom: 10px;
 
-  height: 100px;
+  height: 400px ; 
 
   margin-bottom: 10px;
-
-  background-color: bisque;
+  margin-left: -1px;
+  margin-right: 0px;
+  background-color: #000C56;
 
 }
+
+div.sec-1 {
+  color: white;
+}
+
+.sec-2 {
+  border-style: solid;
+  border-width: .5pt;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  height: 400px ; 
+
+  margin-bottom: 10px;
+  background-color: red;
+}
+
+.sec-3 {
+  border-style: solid;
+  border-width: .5pt;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  height: 400px ; 
+
+  margin-bottom: 10px;
+  background-color: green;
+}
+
+/*
+#div-with-bg {
+  /* Background pattern from Toptal Subtle Patterns */
+  background-image: url("/media/sec-1-bg2.jpg");
+  height: 400px;
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-position: 50% 50%;
+  
+} 
