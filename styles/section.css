@@ -1,8 +1,11 @@
 .sec-1{
   border-style: solid;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
-  height: 500px;
-  width: 100%;
+  height: 100px;
+
   
   left: 0px;
   right: 0px;
