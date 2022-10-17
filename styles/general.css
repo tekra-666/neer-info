@@ -1,0 +1,12 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+
+  margin: 80px;
+  background-color: #f9f9f9;
+}
+
+.main-body {
+  margin: 0;
+  background-color: #f9f9f9;
+}
