@@ -1,9 +1,9 @@
 .sec-1-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   column-gap: 1%;
   position: relative;
-  margin-right: auto;
+
   padding: 5%;
   background-color: #000C56;
   color: white;
@@ -12,11 +12,9 @@
 .sec-1-content-wrapper {
   display: grid;
   grid-template-rows: auto;
-  row-gap: 5%;
+  row-gap: 20%;
   position: relative;
   align-items: center;
-  background-color: aqua;
- 
 }
 
 .sec-1-title {
