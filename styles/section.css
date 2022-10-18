@@ -1,13 +1,15 @@
-.sec-1 {
-  justify-content: center;
+.sec-container {
+  /* height: 25rem ; 
+  */
   position: relative;
-
-  height: 400px ; 
-
   margin-bottom: 10px;
-  margin-right: 0px;
-  background-color: #000C56;
+  margin-right: auto;
+  padding: 5rem 0;
 
+}
+
+.sec-1 {
+  background-color: #000C56;
 }
 
 div.sec-1 {
@@ -24,9 +26,9 @@ div.sec-1 {
 
 
 .sec-1-content-wrapper {
-  position: absolute;
-  width: 700px;
-  margin-left: 70px;
+  position: relative;
+  width: 43.75rem;
+  margin-left: 4.5rem;
   margin-top: auto;
   margin-bottom: auto;
 
@@ -35,27 +37,9 @@ div.sec-1 {
 }
 
 .sec-2 {
-  border-style: solid;
-  border-width: .5pt;
-  justify-content: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-  height: 400px ; 
-
-  margin-bottom: 10px;
   background-color: red;
 }
 
 .sec-3 {
-  border-style: solid;
-  border-width: .5pt;
-  justify-content: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-  height: 400px ; 
-
-  margin-bottom: 10px;
   background-color: green;
 }
