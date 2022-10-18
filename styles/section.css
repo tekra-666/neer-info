@@ -1,18 +1,13 @@
-.sec-container {
-  /* height: 25rem ; 
-  */
+.sec-1-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   position: relative;
-  margin-bottom: 10px;
+
+
   margin-right: auto;
   padding: 5rem 0;
 
-}
-
-.sec-1 {
   background-color: #000C56;
-}
-
-div.sec-1 {
   color: white;
 }
 
@@ -21,19 +16,33 @@ div.sec-1 {
   font-size: 4rem;
 
   margin: auto;
+
+  background-color: blueviolet;
 }
 
 
 
 .sec-1-content-wrapper {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
   position: relative;
-  width: 43.75rem;
-  margin-left: 4.5rem;
-  margin-top: auto;
-  margin-bottom: auto;
+  align-items: center;
 
+  margin-left: 4.5rem;
+  padding-bottom: 0;
   background-color: aqua;
  
+}
+
+.sec-1-subtitle {
+  background-color: blueviolet;
+}
+
+.sec-1-btn {
+  padding: 0;
+  margin: 0;
+
+  background-color: blueviolet;
 }
 
 .sec-2 {
